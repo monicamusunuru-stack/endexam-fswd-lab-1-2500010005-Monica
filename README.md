@@ -1,19 +1,85 @@
-# React + Vite
+# 🩸 Blood Bank Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+The **Blood Bank Management System** is a web-based application developed to simplify the management of blood donors, blood inventory, and patient blood requests.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The system provides an easy-to-use dashboard that helps administrators monitor available blood units, manage donor information, and handle blood requests efficiently.
 
-## React Compiler
+## Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **Dashboard:** Displays total blood units, registered donors, total requests, and pending requests.
+- **Donor Management:** Add, view, search, and delete donor details.
+- **Blood Inventory:** View available blood units for all eight blood groups and adjust stock.
+- **Request Management:** Submit blood requests and approve or reject pending requests.
+- **Stock Management:** Automatically deducts blood units when a request is approved.
+- **Data Persistence:** Uses browser Local Storage to retain application data.
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- Browser Local Storage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation and Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/monicamusunuru-stack/endexam-fswd-lab-1-2500010005-Monica.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd endexam-fswd-lab-1-2500010005-Monica
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the localhost URL displayed in the terminal.
+
+## Project Structure
+
+```text
+Blood-Bank-Management-System/
+│
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
+```
+
+## Purpose
+
+The main objective of this project is to provide a simple digital platform for managing blood donors, monitoring blood availability, and handling blood requests.
+
+## Developed By
+
+**Monica Musunuru**
+
+GitHub: [monicamusunuru-stack](https://github.com/monicamusunuru-stack)
+
+---
+
+*Blood Bank Management System – Saving Lives Through Better Management.* 🩸
